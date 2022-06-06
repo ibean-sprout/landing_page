@@ -11,3 +11,21 @@ body {
     background-color: #1F2937;
     height: 50px;
 }
+
+.section-one {
+    display: flex;
+    
+}
+
+.card-container {
+    flex-flow: row nowrap;
+}
+
+.card {
+    width: 70px;
+    height: 70px;
+    border: 10px solid #3882F6;
+    border-radius: 20px;
+    padding: 50px;
+    margin: 20px; 
+}
