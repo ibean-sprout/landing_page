@@ -1,0 +1,13 @@
+body {
+    font: Roboto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.header {
+    background-color: #1F2937;
+    height: 50px;
+}
