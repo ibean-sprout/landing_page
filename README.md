@@ -17,3 +17,6 @@ https://pixabay.com/illustrations/cream-cupcake-delicious-frosting-4929805/
 
 Teapot image by AlexandraAlta from Pixabay
 https://pixabay.com/illustrations/tea-tea-pot-tea-cup-drawing-design-7194841/
+
+Waves-Circle image by Gerd Altmann from Pixbay
+https://pixabay.com/illustrations/waves-circles-water-waves-circles-109964/

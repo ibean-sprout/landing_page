@@ -35,6 +35,34 @@ li:first-child {
     margin-right: auto;
 }
 
+.header-two {
+    display: flex;
+    flex: 1;
+    height: 450px;
+    background-color: #1F2937;
+}
+.container-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 25%;
+    height: 0;
+    min-height: 50%;
+    border: 10px solid white;
+}
+
+/*makes image strech without overflowing
+reference - https://stackoverflow.com/questions/42021716/force-image-inside-flexbox-container-to-fill-cover-100 */
+.container-two, img {
+    display: flex;    
+    align-items: center;
+    justify-content: center;   
+    width: 50%;
+    height: 0;
+    min-height: 70%;
+}
+
 .section-two {
     margin-left: 50px;
     margin-right: 50px;
