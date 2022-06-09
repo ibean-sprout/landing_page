@@ -11,6 +11,8 @@ h1 {
     margin: 42px 0;
 }
 
+/* Navigation bar section -complete */
+
 .navbar-top {
     background-color: #1F2937;
 }
@@ -19,15 +21,11 @@ h1 {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    
-    
 }
 
 .nav-item {
     list-style: none;
     margin-right: 2rem;
-    
-    
 }
 
 .nav-item a {
@@ -35,25 +33,14 @@ h1 {
     color: #fff;
 }
 
-/*ul, a {
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: nowrap;
-    flex: 1;
-    margin-right: 220px;
-    color: #fff;
-    text-decoration: none;
-    list-style: none;
-    text-decoration: none;
-
-}*/
-
 /* selects the first element of the parent ul element*/
 .nav-item:first-child {
     margin-right: auto;
     margin-left: 2rem;
 }
+/* End navigation section*/
 
+/*Start first section*/
 .header-two {
     display: flex;
     justify-content: center;
@@ -62,6 +49,7 @@ h1 {
     height: 350px;
     background-color: #1F2937;
 }
+
 .container-one {
     display: flex;
     flex-direction: column;
@@ -83,8 +71,14 @@ reference - https://stackoverflow.com/questions/42021716/force-image-inside-flex
     min-height: 70%;
 }
 
-.top-text {
-    padding: 12px;
+.header-two-text {
+    padding: 12px 12px 12px 0;
+    color: #fff;
+}
+
+.header-two-text:first-child {
+    font-size: 36px;
+    font-weight: bold;
 }
 
 button {
@@ -97,7 +91,7 @@ button {
     height: 50px;
   }
   
-
+/* End second section*/
 
 .section-two {
     display: flex;
