@@ -11,34 +11,55 @@ h1 {
     margin: 42px 0;
 }
 
-.section-one {
-    
+.navbar-top {
     background-color: #1F2937;
+}
+
+.section-one {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
     
 }
 
-ul, a {
+.nav-item {
+    list-style: none;
+    margin-right: 2rem;
+    
+    
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*ul, a {
     display: flex;
     justify-content: flex-end;
     flex-wrap: nowrap;
-    gap: 30px;
-    margin-right: 70px;
+    flex: 1;
+    margin-right: 220px;
     color: #fff;
     text-decoration: none;
     list-style: none;
     text-decoration: none;
-    
-}
+
+}*/
 
 /* selects the first element of the parent ul element*/
-li:first-child {
+.nav-item:first-child {
     margin-right: auto;
+    margin-left: 2rem;
 }
 
 .header-two {
     display: flex;
-    flex: 1;
-    height: 450px;
+    justify-content: center;
+    gap: 48px;
+    align-items: center;
+    height: 350px;
     background-color: #1F2937;
 }
 .container-one {
@@ -46,10 +67,9 @@ li:first-child {
     flex-direction: column;
     justify-content: center;
     align-self: center;
-    width: 25%;
+    width: 410px;
     height: 0;
     min-height: 50%;
-    border: 10px solid white;
 }
 
 /*makes image strech without overflowing
@@ -58,12 +78,31 @@ reference - https://stackoverflow.com/questions/42021716/force-image-inside-flex
     display: flex;    
     align-items: center;
     justify-content: center;   
-    width: 50%;
-    height: 0;
+    width: 410px;
+    height: 200px;
     min-height: 70%;
 }
 
+.top-text {
+    padding: 12px;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: #3882F6;
+    padding: 8px 24px;
+    width: 100px;
+    height: 50px;
+  }
+  
+
+
 .section-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: 50px;
     margin-right: 50px;
     
@@ -80,8 +119,8 @@ reference - https://stackoverflow.com/questions/42021716/force-image-inside-flex
 
 .image,
 .card {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 
 
