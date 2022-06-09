@@ -1,4 +1,8 @@
 
-Centered the the right side with the written content and 
-the right side that contains an image. Worked on the button size
-and added color to the background.
+Centered the content div and set to flex, created a
+ secondary div to hold the paragraph elemets, added
+seperate styling to paragraph elements. Added a flex
+basis of 100% to the first paragrapha and justify-content
+flex-end to the second. Doing so made the first paragraph
+take up the entire row length of the container div
+and only centered the second element to the end.
