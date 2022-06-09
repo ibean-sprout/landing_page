@@ -93,6 +93,8 @@ button {
   
 /* End second section*/
 
+/*Start section two (images section)*/
+
 .section-two {
     display: flex;
     justify-content: center;
@@ -102,23 +104,25 @@ button {
     
 }
 
-.card-container {
+.image-container {
     display: flex;
     justify-content: center;
-    flex-flow: row nowrap;
-    gap: 100px;
+    gap: 55px;
    
 }
-
 
 .image,
 .card {
     width: 200px;
     height: 200px;
+    border-radius: 25px;
 }
 
 
-p {
+
+.card p {
     word-wrap: break-word;
     text-align: center;
 }
+
+/* End images section*/
