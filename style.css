@@ -48,8 +48,9 @@ h1 {
     justify-content: center;
     gap: 48px;
     align-items: center;
-    height: 350px;
+    min-height: 450px;
     background-color: #1F2937;
+    padding-bottom: 82px;
 }
 
 .container-one {
@@ -101,8 +102,8 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 50px;
-    height: 400px;
+    margin: 0px 50px 42px 50px;
+    min-height: 400px;
     
 }
 
@@ -133,7 +134,7 @@ button {
 
 .section-three {
     background-color: #e5e7eb;
-    height: 400px;
+    height: 600px;
     margin-top: 84px;
     display: flex;
     justify-content: center;
@@ -144,6 +145,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
+    margin: 42px 0 72px 0;
 
 }
 
@@ -155,7 +157,19 @@ button {
    flex-basis: 100%;
 }
 .cool-quote-two {
-    font-size: 26px;
+    font-size: 22px;
     font-weight: bold;
 }
 
+/*Start of section four (last section)*/
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+
+}
