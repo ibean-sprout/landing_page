@@ -6,10 +6,6 @@ body {
     
 }
 
-h1 {
-    text-align: center;
-    margin: 42px 0;
-}
 
 /* Navigation bar section -complete */
 
@@ -41,6 +37,12 @@ h1 {
 /* End navigation section*/
 
 /*Start first section*/
+
+h1 {
+    text-align: center;
+    margin: 42px 0 0 0;
+}
+
 .header-two {
     display: flex;
     justify-content: center;
@@ -99,8 +101,8 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 0 50px;
+    height: 400px;
     
 }
 
@@ -126,3 +128,34 @@ button {
 }
 
 /* End images section*/
+
+/*Start section 3*/
+
+.section-three {
+    background-color: #e5e7eb;
+    height: 400px;
+    margin-top: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+}
+
+/*target second paragraph in quote-container*/
+
+.cool-quote-one {
+   font-size: 52px;
+   font-weight: lighter;
+   flex-basis: 100%;
+}
+.cool-quote-two {
+    font-size: 26px;
+    font-weight: bold;
+}
+
